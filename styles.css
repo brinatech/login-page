@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('./img/pexels-suzyhazelwood-1629236.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+  width: 350px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  color: #fff;
+  padding: 30px 40px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.container h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  position: relative;
+  margin: 15px 0;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px 45px 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  background: transparent;
+  color: white;
+}
+.input-box i {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: white;
+  opacity: 0.7;
+  font-size: 18px;
+  pointer-events: none;
+}
+.input-box input::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.remember a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.remember a:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color:  #0077BE ;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #003366;
+
+}
+.social-footer {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.social-footer p {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0077BE;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
