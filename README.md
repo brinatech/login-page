@@ -3,7 +3,7 @@
 Uma tela de login simples e responsiva desenvolvida com HTML e CSS.  
 Criado para praticar estruturação de formulários e design responsivo.
 
-## 💻 Prévia
+##  Prévia
 
 ![Tela de login](https://github.com/user-attachments/assets/49cb94d3-5271-4e87-8929-fd47e9213256)
 
